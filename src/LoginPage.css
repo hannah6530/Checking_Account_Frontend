@@ -1,0 +1,31 @@
+body{
+    height: 1000px;
+    /*width: 100%;*/
+    background-image: linear-gradient(to top right, black, indigo);
+}
+
+h3{
+    color: white;
+}
+
+.logo_and_text{
+    margin:auto;
+    margin-left:1em;
+    margin-right:1em;
+    margin-top:1em;
+    margin-bottom:1em;
+    display:inline-block;
+}
+
+.dallorLogo{
+    width: 300px;
+    left: 300px;
+
+    bottom: 300px;
+    position: absolute;
+
+}
+
+img{
+    width: 55px;
+}

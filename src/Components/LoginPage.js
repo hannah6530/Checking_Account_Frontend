@@ -9,7 +9,11 @@ const LoginPage = (props) => {
         <div>
             <div className="logo_and_text">
                 <h3>Atm Bank</h3>
-                <img  src={DebitLogo} alt="debit_logo"/>
+                <img className="debitLogo" src={DebitLogo} alt="debit_logo"/>
+            </div>
+            <div>
+                <h1>WHERE YOUR BANKING NEEDS ARE</h1>
+                <h1 className="our_priority">OUR PRIORITY</h1>
             </div>
 
             <img className="dallorLogo" src={Logo} alt="logo" />

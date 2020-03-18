@@ -1,31 +1,44 @@
 body{
     height: 1000px;
     /*width: 100%;*/
-    background-image: linear-gradient(to top right, black, indigo);
+    background-image: linear-gradient(to top right, indigo, black);
 }
 
 h3{
     color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 660px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .logo_and_text{
-    margin:auto;
-    margin-left:1em;
-    margin-right:1em;
-    margin-top:1em;
-    margin-bottom:1em;
-    display:inline-block;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+
+}
+
+.debitLogo{
+    left: 595px;
+    position: absolute;
+    top: 7px;
 }
 
 .dallorLogo{
     width: 300px;
-    left: 300px;
-
+    left: 540px;
     bottom: 300px;
     position: absolute;
-
 }
 
-img{
+img {
     width: 55px;
+}
+
+h1{
+    font-weight: bold;
+    color: white;
+
+
 }
